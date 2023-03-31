@@ -1,0 +1,13 @@
+#+TITLE: hexmacs README
+#+AUTHOR: hexis
+
+
+* what is hexmacs
+** hexmacs is a light and easy to use emacs config
+
+
+* how to install
+
+#+BEGIN_SRC sh
+git clone https://github.com/hexisXz/hexmacs.git && cd hexmacs && ./install.sh
+#+END_SRC
