@@ -30,10 +30,6 @@
 (use-package go-mode
   :ensure t)
 
-;; install one-dark theme
-(use-package atom-one-dark-theme
-  :ensure t)
-
 ;; enable org mode
 (require 'org)
 
