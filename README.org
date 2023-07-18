@@ -9,5 +9,5 @@ hexmacs is just a config of emacs i made to fit my work flow
 * how to install
 
 #+BEGIN_SRC sh
-sh <(curl -v -L https://github.com/hexisXz/hexmacs.git)
+sh <(curl -v -L https://raw.githubusercontent.com/hexisXz/hexmacs/main/install)
 #+END_SRC
