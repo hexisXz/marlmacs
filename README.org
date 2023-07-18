@@ -3,7 +3,7 @@
 
 
 * what is hexmacs
-***** hexmacs is just a config of emacs i made to fit my work flow
+hexmacs is just a config of emacs i made to fit my work flow
 
 
 * how to install
