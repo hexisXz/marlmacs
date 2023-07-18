@@ -1,5 +1,10 @@
 # what is marlmacs
-marlmacs is just a config of emacs i made to fit my work flow
+marlmacs is just a config of emacs i made to fit my workflow
+
+
+
+https://github.com/hexisXz/marlmacs/assets/71829613/d4886757-420e-4c95-a1ec-2cdc55dac888
+
 
 
 # how to install
