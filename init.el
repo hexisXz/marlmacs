@@ -1,7 +1,5 @@
 (add-to-list 'custom-theme-load-path "~/.config/hexmacs/atom-one-dark-theme")
 
-;;(load-theme 'doom-one t) ;; doom-one theme
-
 ;;(load-theme 'dracula t) ;; dracula theme
 
 ;;(load-theme 'zeno t) ;; zeno theme
@@ -30,10 +28,6 @@
 
 ;; install go-mode
 (use-package go-mode
-  :ensure t)
-
-;; install doom-themes
-(use-package doom-themes
   :ensure t)
 
 ;; install one-dark theme
