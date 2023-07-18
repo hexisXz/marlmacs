@@ -1,4 +1,0 @@
-#!/bin/sh
-
-
-git clone https://github.com/hexisXz/hexmacs.git && cd hexmacs && mkdir ~/.config/hexmacs && mv emacs3.png ~/.config/hexmacs && mkdir ~/.emacs.d && mv init.el ~/.emacs.d && $ git clone https://github.com/jonathanchu/atom-one-dark-theme.git && mv atom-one-dark-theme ~/.config/hexmacs
