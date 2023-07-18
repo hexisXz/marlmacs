@@ -1,4 +1,4 @@
-(add-to-list 'custom-theme-load-path "~/.config/hexmacs/atom-one-dark-theme")
+(add-to-list 'custom-theme-load-path "~/.config/marlmacs/atom-one-dark-theme")
 
 ;;(load-theme 'dracula t) ;; dracula theme
 
@@ -72,7 +72,7 @@
 ;; org tangel
 (global-set-key (kbd "M-o") 'org-babel-tangle)
 
-;; reload hexmacs
+;; reload marlmacs
 (defun load-init-file ()
   "Load the init.el file."
   (interactive)
@@ -81,7 +81,7 @@
 (global-set-key (kbd "M-l") 'load-init-file)
 (global-set-key (kbd "M-p") 'org-export-dispatch)
 
-(defvar start-image "~/.config/hexmacs/emacs3.png")
+(defvar start-image "~/.config/marlmacs/emacs3.png")
 
 (defun start ()
   (interactive)
@@ -90,7 +90,7 @@
   (let ((image (create-image start-image)))
     (insert-image image)
     (newline))
-  (insert "Welcome to hexmacs\n\n")
+  (insert "Welcome to marlmacs\n\n")
   (insert "Here are some useful keybinds:\n")
   (insert "\n- C-x-C-f or M-f for the file manager\n")
   (insert "- alt + x to run other commands\n")
@@ -101,7 +101,7 @@
   (insert "- M-s to open a window below\n")
   (insert "- M-w to open the emacs browser\n")
   (insert "- M-o to run org tangle in a org doc\n")
-  (insert "- M-l to reload emacs\n"))
+  (insert "- M-l to reload marlmacs\n"))
 
 
 (setq initial-buffer-choice 'start)
