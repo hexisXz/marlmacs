@@ -86,12 +86,12 @@
 (defun load-init-file ()
   "Load the init.el file."
   (interactive)
-  (load-file (expand-file-name "~/.config/hexmacs/init.el")))
+  (load-file (expand-file-name "~/.emacs.d/init.el")))
 
 (global-set-key (kbd "M-l") 'load-init-file)
 (global-set-key (kbd "M-p") 'org-export-dispatch)
 
-(defvar start-image "~/Downloads/emacs3.png")
+(defvar start-image "~/.config/hexmacs/emacs3.png")
 
 (defun start ()
   (interactive)
