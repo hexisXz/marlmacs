@@ -12,6 +12,11 @@
 
 (tool-bar-mode -1)
 
+
+;; add transparency 
+(add-to-list 'default-frame-alist '(alpha-background . 80))
+
+
 ;; install evil-mode
 (use-package evil
   :ensure t)
@@ -151,7 +156,8 @@
  '(custom-safe-themes
    '("b54bf2fa7c33a63a009f249958312c73ec5b368b1094e18e5953adb95ad2ec3a" default))
  '(package-selected-packages
-   '(circe xwidgets-reuse exwm-x exwm one-dark one-themes melancholy-theme atom-one-dark-theme zeno-theme highlight-numbers evil-visual-mark-mode org-modern lua-mode mpv emms mu4easy doom-themes go-mode dracula-theme evil-collection evil undo-fu use-package exec-path-from-shell epl)))
+   '(company-irony company irony auto-complete circe xwidgets-reuse exwm-x exwm one-dark one-themes melancholy-theme atom-one-dark-theme zeno-theme highlight-numbers evil-visual-mark-mode org-modern lua-mode mpv emms mu4easy doom-themes go-mode dracula-theme evil-collection evil undo-fu use-package exec-path-from-shell epl))
+ '(warning-suppress-log-types '(((evil-collection)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
