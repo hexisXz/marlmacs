@@ -13,7 +13,13 @@
 (tool-bar-mode -1)
 
 
+;;enable line numbers
+(global-display-line-numbers-mode 1)
+
+
+
 (add-to-list 'default-frame-alist '(alpha-background . 80))
+
 
 ;; install evil-mode
 (use-package evil
