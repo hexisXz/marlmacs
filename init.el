@@ -1,10 +1,10 @@
-(add-to-list 'custom-theme-load-path "~/.config/marlmacs/atom-one-dark-theme")
+(add-to-list 'custom-theme-load-path "~/.config/marlmacs/")
 
 ;;(load-theme 'dracula t) ;; dracula theme
 
 ;;(load-theme 'zeno t) ;; zeno theme
 
-(load-theme 'atom-one-dark t) ;; atom theme
+(load-theme 'marlmacs t) ;; atom theme
 
 ;;(load-theme 'one-dark t) ;; one theme
 
@@ -13,9 +13,7 @@
 (tool-bar-mode -1)
 
 
-;; add transparency 
 (add-to-list 'default-frame-alist '(alpha-background . 80))
-
 
 ;; install evil-mode
 (use-package evil
