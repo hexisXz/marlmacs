@@ -230,10 +230,13 @@
 
 (require 'dashboard)
 (dashboard-setup-startup-hook)
+
 (setq dashboard-startup-banner 'logo)
+(setq dashboard-banner-logo-title "Welcome to Marlmacs")
+
 (setq dashboard-items '((recents . 5)
-                        (bookmarks . 5)
-                        (projects . 5)))
+                       (bookmarks . 5)
+                       (projects . 5)))
 
 
 (setq initial-buffer-choice 'start)
