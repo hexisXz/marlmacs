@@ -1,14 +1,18 @@
 # what is marlmacs
-marlmacs is just a config of emacs i made to fit my workflow
+marlmacs is a simple and easy to use emacs config.
 
+![marlmacs2](https://github.com/hexisXz/marlmacs/assets/71829613/bdf10ce0-aed0-4828-96f0-6db9e86d4cb5)
 
-![marlmacs-2 0](https://github.com/hexisXz/marlmacs/assets/71829613/035bc985-532a-405c-994b-b21f19c656ee)
 
 
 
 # marlmacs in action
 
-https://github.com/hexisXz/marlmacs/assets/71829613/d35fdee2-ce42-4730-ab90-099453744693
+
+
+https://github.com/hexisXz/marlmacs/assets/71829613/ae28ba22-39a1-4d99-a8fe-c9d4831e7282
+
+
 
 
 
