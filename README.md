@@ -15,6 +15,28 @@ https://github.com/hexisXz/marlmacs/assets/71829613/ae28ba22-39a1-4d99-a8fe-c9d4
 
 
 
+# keybinds
+```
+M-f to open the file manager
+
+M-b to switch buffers
+
+M-ENTER to split windows
+
+M-SHIFT-C to close split windows
+
+M-s to open a window below
+
+M-w to open the emacs browser
+
+M-o to run org tangle in a org doc
+
+M-l to reload marlmacs (note: this bind conflicts with the vim binds so you have to switch to the *dastboard* buffer to reload emacs)  
+
+M-N to open a scratchpad
+
+M-K to kill a buffer
+```
 
 
 # how to install
