@@ -42,7 +42,10 @@ M-t to open the term
 
 
 # how to install
-first you need to copy and paste this script in your terminal then launch emacs and press the alt key + x, type package-install then type use-package. after thats done relaunch emacs and marlmacs should work. 
+on some distros you might need to copy and paste this script in your terminal then launch emacs and press the alt key + x, type package-install then type use-package. after thats done relaunch emacs and marlmacs should work. 
+
+
+but on a lot of distros like ubuntu void linux and arch just copying this in your terminal should install the whole thing.
 
 
 ``` sh

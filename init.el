@@ -203,30 +203,6 @@
 (global-set-key (kbd "M-l") 'load-init-file)
 (global-set-key (kbd "M-p") 'org-export-dispatch)
 
-;;(defvar start-image "~/.config/marlmacs/emacs3.png")
-
-;;(defun start ()
-;;  (interactive)
-;;  (switch-to-buffer (get-buffer-create "*start*"))
-;;  (erase-buffer)
-;;  (let ((image (create-image start-image)))
-;;    (insert-image image)
-;;    (newline))
-;;  (insert "Welcome to marlmacs\n\n")
-;;  (insert "Here are some useful keybinds:\n")
-;;  (insert "\n- C-x-C-f or M-f for the file manager\n")
-;;  (insert "- alt + x to run other commands\n")
-;;  (insert "- C-x-C-b or M-b to see all buffers\n")
-;;  (insert "- shift + Z + Z to save and quit\n")
-;;  (insert "- C-x-3 or M-ENTER to split windows\n")
-;;  (insert "- M-SHIFT-C to close split windows\n")
-;;  (insert "- M-s to open a window below\n")
-;;  (insert "- M-w to open the emacs browser\n")
-;;  (insert "- M-o to run org tangle in a org doc\n")
-;;  (insert "- M-l to reload marlmacs\n")
-;;  (insert "- M-N to open a scratchpad\n")
-;;  (insert "- M-K to kill a buffer\n"))
-
 
 ;; start page
 (require 'dashboard)
