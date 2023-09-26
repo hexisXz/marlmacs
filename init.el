@@ -228,10 +228,12 @@
 ;;  (insert "- M-K to kill a buffer\n"))
 
 
+;; start page
 (require 'dashboard)
 (dashboard-setup-startup-hook)
 
-(setq dashboard-startup-banner 'logo)
+;; Set custom logo path
+(setq dashboard-startup-banner '"~/.config/marlmacs/marlmacs.png")
 (setq dashboard-banner-logo-title "Welcome to Marlmacs")
 
 (setq dashboard-items '((recents . 5)
@@ -239,7 +241,7 @@
                        (projects . 5)))
 
 
-(setq initial-buffer-choice 'start)
+;;(setq initial-buffer-choice 'start)
 
 ;;; Startup
 ;;; PACKAGE LIST
