@@ -36,6 +36,8 @@ M-l to reload marlmacs (note: this bind conflicts with the vim binds so you have
 M-N to open a scratchpad
 
 M-K to kill a buffer
+
+M-t to open the term
 ```
 
 
