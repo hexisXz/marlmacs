@@ -46,17 +46,22 @@ M-t to open the term
 
 
 # dont edit the init.el
+</div>
+
 You can edit the init.el but the keybinds, packages, startpage and themes aren't in the init.el.
 if you want to install new packages or change the theme and startpage you need to change into the ~/.config/marlmacs/config dir and you will find all of the files to edit and configure marlmacs.
 
-
+<div align="center">
 
 # how to install
+</div>
+
 on some distros you might need to copy and paste this script in your terminal then launch emacs and press the alt key + x, type package-install then type use-package. after thats done relaunch emacs and marlmacs should work. 
 
 
 but on a lot of distros like ubuntu void linux and arch just copying this in your terminal should install the whole thing.
 
+<div align="center">
 
 ``` sh
 sh <(curl -v -L https://raw.githubusercontent.com/hexisXz/marlmacs/main/install)
