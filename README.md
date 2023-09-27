@@ -1,4 +1,4 @@
-<p align="center">
+<div align="center">
   
   ![marlmacs23](https://github.com/hexisXz/marlmacs/assets/71829613/d9a808c4-e0b8-4aa0-9848-28083ced56fc)
 
@@ -56,4 +56,4 @@ but on a lot of distros like ubuntu void linux and arch just copying this in you
 sh <(curl -v -L https://raw.githubusercontent.com/hexisXz/marlmacs/main/install)
 ```
 
-</p>
+</div>
