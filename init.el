@@ -13,14 +13,13 @@
 (setq prettify-symbols-alist nil)
 
 ;; load config files
-(load-file "~/.emacs.d/config/packages.el")
+(load-file "~/.config/marlmacs/config/packages.el")
 
-(load-file "~/.emacs.d/config/keybinds.el")
+(load-file "~/.config/marlmacs/config/keybinds.el")
 
-(load-file "~/.emacs.d/config/startpage.el")
+(load-file "~/.config/marlmacs/config/startpage.el")
 
-(load-file "~/.emacs.d/config/themes.el")
-
+(load-file "~/.config/marlmacs/config/themes.el")
 
 ;;; Startup
 ;;; PACKAGE LIST

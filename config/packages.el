@@ -1,3 +1,7 @@
+;; enable/install use package
+(unless (package-installed-p 'use-package)
+  (package-install 'use-package))
+
 ;; install rainbow-mode
 (use-package rainbow-mode
   :ensure t)
@@ -103,14 +107,10 @@
 ;; enable rainbow-mode
 (require 'rainbow-mode)
 
-;; enable/install use package
-(unless (package-installed-p 'use-package)
-  (package-install 'use-package))
-
 (use-package pretty-mode
   :ensure t)
-
 
 (global-pretty-mode t)
 
 (add-hook 'my-pretty-language-hook 'turn-on-pretty-mode)
+
