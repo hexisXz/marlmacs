@@ -1,22 +1,21 @@
-# what is marlmacs
-marlmacs is a simple and easy to use emacs config.
+<p align="center">
+  
+  ![marlmacs23](https://github.com/hexisXz/marlmacs/assets/71829613/d9a808c4-e0b8-4aa0-9848-28083ced56fc)
 
-![marlmacs2](https://github.com/hexisXz/marlmacs/assets/71829613/bdf10ce0-aed0-4828-96f0-6db9e86d4cb5)
-
-
-
-
-# marlmacs in action
-
-
-
-https://github.com/hexisXz/marlmacs/assets/71829613/ae28ba22-39a1-4d99-a8fe-c9d4831e7282
-
-
-
-
-# keybinds
-```
+  
+  # what is marlmacs
+  marlmacs is a simple and easy to use emacs config.
+  
+  ![marlmacs2](https://github.com/hexisXz/marlmacs/assets/71829613/bdf10ce0-aed0-4828-96f0-6db9e86d4cb5)
+  
+  
+  
+  # marlmacs in action
+  
+  https://github.com/hexisXz/marlmacs/assets/71829613/ae28ba22-39a1-4d99-a8fe-c9d4831e7282
+  
+  # keybinds
+  ```
 M-f to open the file manager
 
 M-b to switch buffers
@@ -40,8 +39,6 @@ M-K to kill a buffer
 M-t to open the term
 ```
 
-
-
 # dont edit the init.el
 You can edit the init.el but the keybinds, packages, startpage and themes aren't in the init.el.
 if you want to install new packages or change the theme and startpage you need to change into the ~/.config/marlmacs/config dir and you will find all of the files to edit and configure marlmacs.
@@ -58,3 +55,5 @@ but on a lot of distros like ubuntu void linux and arch just copying this in you
 ``` sh
 sh <(curl -v -L https://raw.githubusercontent.com/hexisXz/marlmacs/main/install)
 ```
+
+</p>
