@@ -15,6 +15,9 @@
   https://github.com/hexisXz/marlmacs/assets/71829613/ae28ba22-39a1-4d99-a8fe-c9d4831e7282
   
   # keybinds
+
+</div>
+
   ```
 M-f to open the file manager
 
@@ -38,6 +41,9 @@ M-K to kill a buffer
 
 M-t to open the term
 ```
+
+<div align="center">
+
 
 # dont edit the init.el
 You can edit the init.el but the keybinds, packages, startpage and themes aren't in the init.el.
