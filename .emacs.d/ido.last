@@ -1,0 +1,58 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/hexis/stuff/school/" . "math/")
+ ("/home/hexis/stuff/" . "school/")
+ ("/home/hexis/" . "stuff/")
+ ("/home/hexis/.config/marlmacs/" . "config/")
+ ("/home/" . "hexis/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/hexis/stuff/school/math/"
+ "/home/hexis/.emacs.d/"
+ "/home/hexis/.emacs.d/programs/"
+ "/home/hexis/.config/marlmacs/config/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "absolute-value.org"
+ "absolute-value"
+ "doom.el"
+ "programs.el"
+ "packages.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/hexis/stuff/school/math/" (26067 57488 633081 514000) "Classifying" "../" "absolute-value.org" "./")
+
+ ("/home/hexis/stuff/school/" (26065 15923 467271 517000) "fractions" "math/" "../" "./")
+
+ ("/home/hexis/stuff/" (26065 36650 478429 154000) "st/" "Arch-Hyprland/" "emacs/" "paru/" "quelpa/" "eww-git/" "emacs-dashboard/" "programs/" "yay/" "token" "eww/" "my-stuff/" "dwm/" "../" "hexfetch/" "AUR/" "zoxide/" "school/" "./")
+
+ ("/home/hexis/.emacs.d/site-lisp/" (26064 61079 6598 563000) "../" "emacs-application-framework/" "./")
+
+ ("/home/hexis/.emacs.d/site-lisp/emacs-application-framework/" (26064 61134 795583 174000) "extension/" "img/" "framework.png" ".github/" "CODE_OF_CONDUCT.md" "eaf.py" "sync-eaf-resources.py" "core/" "app/" "install-eaf.py" "README.md" "dependencies.json" "LICENSE" "README.zh-CN.md" "applications.json" ".git/" "../" ".gitignore" "gnome-shell/" "eaf.el" "reinput/" "./")
+
+ ("/home/hexis/.emacs.d/programs/" (26067 23391 654260 511000) "../" "./" "programs.el")
+
+ ("/home/hexis/.config/marlmacs/config/" (26067 23384 720927 328000) "#packages.el#" "]" "packages.el~" "startpage.el" "keybinds.el" "themes.el" ".#packages.el" "packages.el" "../" "./")
+
+ ("/home/hexis/.emacs.d/" (26067 22906 521909 128000) "init.el" "auto-save-list/" "eaf-browser.el" "url/" "quelpa.el" "exwm/" "quelpa/" "programs/" "elpa/" "site-lisp/" "recentf" "xelb/" "../" "./" "transient/")
+
+ ("/home/hexis/.config/marlmacs/" (26064 20524 558389 965000) "marlmacs-theme.el" "config/" "atom-one-dark-theme/" "marlmacs.png" "../" "./")
+
+ ("/home/" (26056 34485 781186 315000) "lost+found/" "../" "hexis/" "./")
+
+ ("/home/hexis/.config/" (26064 23872 241291 445000) "dconf/" "picom.conf" "gzdoom/" "discord/" "xfce4/" "user-dirs.dirs" "btop/" "balena-etcher/" "pavucontrol.ini" "cef_user_data/" "Thunar/" "zdoom/" "bt/" "gtk-4.0/" "user-dirs.locale" "systemd/" "scoria/" "dolphinrc" "nautilus/" "nwg-displays/" "yay/" "wallpapers/" "kitty/" "hypr/" "kde.org/" "nushell/" "pulse/" "session/" "marlmacs/" "../" "neofetch/" "gtk-3.0/" "Mousepad/" "./" "htop/")
+
+ ("/home/hexis/" (26066 49463 192681 429000) ".nix-defexpr/" ".zprofile" "scripts/" ".cargo/" ".gnupg/" ".nv/" ".zoxide.nu" "Pictures/" ".pulse-cookie" ".surf/" "emacs/" "Xresources-old" ".local/" ".vim/" ".config/" "Public/" "my-dwm/" ".nix-profile/" "bt/" ".zshrc" ".dwm/" ".fehbg" ".npm/" ".viminfo" ".mozilla/" ".bash_logout" "Music/" "setwall/" ".cache/" ".rustup/" ".zcompdump-archlinux-5.9" ".bash_history" ".zsh_history" "Downloads/" ".zcompdump-archlinux-5.9.zwc" ".hyprland/" ".icons/" ".ssh/" ".bashrc" ".zshrc-backup" "dmas/" ".pki/" "stuff/" ".themes/" "Videos/" ".wget-hsts" ".var/" ".gitconfig" ".bash_profile" ".Xresources" "marlmacs/" "../" ".steampid" ".xinitrc" "hexfetch/" "Documents/" "muta.mp4" ".emacs.d/" ".steampath" ".oh-my-zsh/" "Templates/" "./" "Desktop/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

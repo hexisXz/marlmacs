@@ -1,4 +1,4 @@
 #!/bin/sh
 
 
-git clone https://github.com/hexisXz/marlmacs.git && cd marlmacs && mkdir ~/.config/marlmacs && mv config ~/.config/marlmacs && mv marlmacs.png ~/.config/marlmacs && mkdir ~/.emacs.d && mv init.el ~/.emacs.d && git clone https://github.com/jonathanchu/atom-one-dark-theme.git && mv atom-one-dark-theme ~/.config/marlmacs && mv marlmacs-theme.el ~/.config/marlmacs/
+git clone https://github.com/hexisXz/marlmacs.git && cd marlmacs && mkdir ~/.config/marlmacs && mv config ~/.config/marlmacs && mv marlmacs.png ~/.config/marlmacs && mv .emacs.d ~/ && mv init.el ~/.emacs.d && git clone https://github.com/jonathanchu/atom-one-dark-theme.git && mv atom-one-dark-theme ~/.config/marlmacs && mv marlmacs-theme.el ~/.config/marlmacs/
