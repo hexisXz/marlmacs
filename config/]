@@ -73,11 +73,7 @@
 
 (add-to-list 'load-path "/home/hexis/.emacs.d/xelb/")
 (add-to-list 'load-path "/home/hexis/.emacs.d/exwm/")
-(add-to-list 'load-path "/home/hexis/.emacs.d/")
-
-
-(require 'org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(add-to-list 'load-path "~/.emacs.d/programs")
 
 (require 'exwm)
 (require 'exwm-config)
